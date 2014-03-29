@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/system_settings"
+    android:key="@string/setting_main_preference_key">
+    
+    <PreferenceCategory android:title="@string/base_category" 
+        android:enabled="true" 
+        android:shouldDisableView="false">
+    </PreferenceCategory>
+
+    <ListPreference
+        android:defaultValue="@string/setting_font_defalut_value"
+        android:dialogTitle="@string/setting_font_title"
+        android:enabled="true"
+        android:entries="@array/font_size_entry"
+        android:entryValues="@array/font_size_value"
+        android:key="@string/setting_font_key"
+        android:negativeButtonText="@string/cancel"
+        android:summary="@string/setting_font_summary"
+        android:title="@string/setting_font_title" />
+
+    <ListPreference
+        android:defaultValue="@string/setting_language_defalut_value"
+        android:dialogTitle="@string/setting_language_title"
+        android:entries="@array/language_entry"
+        android:entryValues="@array/language_value"
+        android:key="@string/setting_language_key"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@string/OK"
+        android:summary="@string/setting_language_summary"
+        android:title="@string/setting_language_title" />
+
+    <ListPreference android:defaultValue="@string/setting_viewmode_defalut_value" android:dialogTitle="@string/setting_showmode_title" android:entries="@array/show_mode_entry" android:entryValues="@array/view_mode_value" android:key="@string/setting_showmode_key" android:negativeButtonText="@string/cancel" android:positiveButtonText="@string/OK" android:summary="@string/setting_showmode_summary" android:title="@string/setting_showmode_title" /><PreferenceScreen
+        android:key="@string/setting_log_key"
+        android:summary="@string/setting_log_summary"
+        android:title="@string/setting_log_title" >
+    </PreferenceScreen>
+
+    <PreferenceCategory android:title="@string/high_category" >
+        
+    </PreferenceCategory><PreferenceScreen android:summary="@string/setting_comm_summary" android:key="@string/setting_comm_key" android:title="@string/setting_comm_title"></PreferenceScreen>
+
+    <ListPreference
+        android:defaultValue="@string/setting_viewmode_defalut_value"
+        android:dialogTitle="@string/setting_viewmode_title"
+        android:entries="@array/view_mode_entry"
+        android:entryValues="@array/view_mode_value"
+        android:key="@string/setting_viewmode_key"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@string/OK"
+        android:summary="@string/setting_viewmode_summary"
+        android:title="@string/setting_viewmode_title" />
+
+    
+
+    <ListPreference
+        android:defaultValue="@string/setting_filter_defalut_value"
+        android:dialogTitle="@string/setting_filter_title"
+        android:entries="@array/filter_entry"
+        android:entryValues="@array/filter_value"
+        android:key="@string/setting_filter_key"
+        android:negativeButtonText="@string/cancel"
+        android:positiveButtonText="@string/OK"
+        android:summary="@string/setting_filter_summary"
+        android:title="@string/setting_filter_title" />
+
+    <PreferenceScreen
+        android:key="@string/setting_service_key"
+        android:summary="@string/setting_service_summary"
+        android:title="@string/setting_service_title" >
+    </PreferenceScreen>
+
+    <ListPreference android:key="@string/setting_scan_interval_key" android:dialogTitle="@string/setting_scan_title" android:entries="@array/scan_interval_entry" android:title="@string/setting_scan_title" android:entryValues="@array/scan_interval_value" android:negativeButtonText="@string/cancel" android:defaultValue="@string/setting_scan_defalut_value" android:summary="@string/setting_scan_interval_summary"/><CheckBoxPreference
+        android:defaultValue="@string/setting_location_defalut_value"
+        android:key="@string/setting_location_key"
+        android:summary="@string/setting_location_summary"
+        android:summaryOff="@string/setting_location_off_summary"
+        android:summaryOn="@string/setting_location_on_summary"
+        android:title="@string/setting_location_title" />
+
+    <ListPreference android:title="@string/setting_change_map" android:key="@string/setting_change_map_key" android:summary="@string/setting_change_map_summary"/><PreferenceScreen android:title="@string/setting_delete_map_title" android:key="@string/setting_delete_map_key" android:summary="@string/setting_delete_map_summary"></PreferenceScreen><PreferenceCategory android:title="@string/other_category" android:enabled="false"></PreferenceCategory><PreferenceScreen
+        android:key="@string/setting_about_key"
+        android:summary="@string/setting_about_summary"
+        android:title="@string/setting_about_title" >
+    </PreferenceScreen>
+    
+    
+    
+    
+
+</PreferenceScreen>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="setting">设置</string>
+   
+    <string name="system_settings">用户设置</string>
+    <!-- 设置项的标题 -->
+    <string name="base_category">基本设置</string>
+    <string name="setting_font_title">字体</string>
+    <string name="setting_language_title">语言</string>
+    <string name="high_category">高级设置</string>
+    <string name="setting_comm_title">通信设置</string>
+    <string name="setting_viewmode_title">视图模式</string>
+    <string name="setting_showmode_title">显示模式</string>
+    <string name="setting_speed_title">模拟时速</string>
+    <string name="setting_scan_title">扫描间隔</string>
+    <string name="setting_log_title">日志</string>
+    <string name="setting_service_title">服务订阅</string>
+    <string name="setting_filter_title">滤波器选择 </string>
+    <string name="setting_location_title">启用定位</string>
+    <string name="setting_change_map">地图切换</string>
+    <string name="setting_delete_map_title">删除缓存</string>
+    <string name="other_category">其他</string>
+    <string name="setting_about_title">关于软件</string>
+    <!-- 设置项的二级标题 -->
+    <string name="setting_font_summary">选择显示字体的大小</string>
+    <string name="setting_language_summary">选择显示语言</string>
+    <string name="setting_viewmode_summary">选择地图的方向</string>
+    <string name="setting_showmode_summary">选择地图的显示亮度</string>
+    <string name="setting_comm_summary">设置其他组件的通信地址以及标识</string>
+    <string name="setting_speed_summary">模拟导航时的时速设置</string>
+    <string name="setting_scan_interval_summary">设置客户端扫描AP的间隔</string>
+    <string name="setting_log_summary">设置记录那些体制信息</string>
+    <string name="setting_service_summary">订阅基于位置的服务</string>
+    <string name="setting_filter_summary">选择滤波器，提高定位精度</string>
+    <string name="setting_location_summary">启动或关闭定位</string>
+    <string name="setting_change_map_summary">手动切换地图场景</string>
+        
+    <string name="setting_delete_map_summary">删除本地缓存的地图、图片</string>
+        
+    <string name="setting_about_summary">软件情况说明</string>
+    <!-- CheckBox的off和on summary -->
+    <string name="setting_location_on_summary">定位已开启</string>
+    <string name="setting_location_off_summary">定位已关闭</string>
+    <!-- preference key -->
+    <string name="setting_main_preference_key">setting_main_preference_key</string>
+    <string name="setting_font_key">setting_font_key</string>
+    <string name="setting_language_key">setting_language_key</string>
+    <string name="setting_viewmode_key">etting_viewmode_key</string>
+    <string name="setting_showmode_key">setting_showmode_key</string>
+    <string name="setting_speed_key">setting_speed_key</string>
+    <string name="setting_scan_interval_key">setting_scan_interval_key</string>
+    <string name="setting_comm_key">setting_comm_key</string>
+     <string name="setting_log_key">setting_log_key</string>
+    <string name="setting_service_key">setting_service_key</string>
+    <string name="setting_filter_key">setting_filter_key</string>
+    <string name="setting_location_key">setting_location_key</string>
+    <string name="setting_change_map_key">setting_change_map_key</string> 
+    <string name="setting_delete_map_key">setting_delete_map_key</string>
+    <string name="setting_about_key">setting_about_key</string>
+    
+    <!-- default value -->
+    <string name="setting_font_defalut_value">1</string>
+    <string name="setting_language_defalut_value">1</string>
+    <string name="setting_viewmode_defalut_value">1</string>
+    <string name="setting_showmode_defalut_value">1</string>
+    <string name="setting_filter_defalut_value">3</string>
+    <string name="setting_scan_defalut_value">1</string>
+    <string name="setting_location_defalut_value">true</string>
+
+</resources>

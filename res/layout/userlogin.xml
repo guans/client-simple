@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/loginbackground">
+
+    <EditText
+        android:id="@+id/login_username"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_x="50dp"
+        android:layout_y="190dp"
+        android:background="@drawable/radiotop"
+        android:ems="10"
+        android:hint="用户名" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="220dp"
+        android:layout_height="35dp"
+        android:layout_x="50dp"
+        android:layout_y="225dp"
+        android:password="true"
+        android:hint="密码（*）"
+        android:background="@drawable/radiosbottom"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/login_login"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_x="60dp"
+        android:layout_y="318dp"
+        android:background="@drawable/radios_button"
+        android:text="登             录"
+        android:textColor="#ff0000"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/login_savepassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="268dp"
+        android:textColor="#000000"
+        android:text="记住密码" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="440dp"
+        android:text="|" />
+
+    <TextView
+        android:id="@+id/login_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="440dp"
+        android:text="注册" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="103dp"
+        android:layout_y="442dp"
+        android:text="找回密码" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="10dp"
+        android:gravity="center"
+        android:text="@string/app_title"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</AbsoluteLayout>

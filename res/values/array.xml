@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="timeout_labels">
+        <item>所有区域</item>
+        <item>区域1</item>
+        <item>区域2</item>
+        <item>区域3</item>
+        <item>区域4</item>
+        <item>区域5</item>
+    </string-array>
+    <!-- 系统设置界面需要要到的数组 -->
+    <!-- 字体 -->
+    <string-array name="font_size_entry">
+        <item>大字体</item>
+        <item>中字体</item>
+        <item>小字体</item>
+    </string-array>
+    <string-array name="font_size_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!-- 语言-->
+    <string-array name="language_entry">
+        <item>中文简体</item>
+        <item>中文繁体</item>
+        <item>英语</item>
+    </string-array>
+    <string-array name="language_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!--视图模式-->
+    <string-array name="view_mode_entry">
+        <item>北首朝上</item>
+        <item>车首朝上</item>
+        <item>3D</item>
+    </string-array>
+    <string-array name="view_mode_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!--显示模式-->
+    <string-array name="show_mode_entry">
+        <item>白天</item>
+        <item>黑夜</item>
+        <item>自动</item>
+    </string-array>
+    <string-array name="show_mode_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+        <!--扫描间隔-->
+    <string-array name="scan_interval_entry">
+        <item>1秒</item>
+        <item>3秒</item>
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>30秒</item>
+    </string-array>
+    <string-array name="scan_interval_value">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+    </string-array>
+        <!--滤波-->
+    <string-array name="filter_entry">
+        <item>粒子滤波</item>
+        <item>卡尔曼滤波</item>
+        <item>任意滤波</item>
+    </string-array>
+    <string-array name="filter_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

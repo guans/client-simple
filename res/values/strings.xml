@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UE位置感知</string>
+    <string name="app_title">SmartENavi室内定位导航系统</string>
+	<string name="title">SmartENavi导航客户端</string>
+    <!-- 通信设置 -->
+    <string name="comm_setting">通信设置</string>
+    <string name="comm_setting_ip_port">消息中间件IP地址及端口号</string>
+    <string name="comm_setting_hint_ip">ip地址</string>
+    <string name="comm_setting_hint_port">端口号</string>
+    <string name="comm_setting_hint_location_engine">定位引擎</string>
+    <string name="comm_setting_hint_server_engine">服务引擎</string>
+    <string name="comm_setting_button_save">保存</string>
+    <string name="comm_setting_button_cancel">取消</string>
+    <!-- 登录  注册 -->
+    <string name="login">登录</string>
+    <string name="register">请注册</string>
+    <string name="team_name">SmartEmergencyNavigate</string>
+    <string name="platform_name">Mobile Client</string>
+    <string name="Theme">精彩LBS，开启新生活</string>
+    <string name="username">用户名(*)</string>
+    <string name="password">密码(*)(6-16位)</string>
+    <string name="email">邮箱(*)</string>
+    <string name="password_next">密码确认</string>
+    <string name="finish">完成</string>
+    <string name="back">返回</string>
+    <string name="exit">退出</string>
+    <string name="registe_soon">立即注册账号</string>
+
+    <!-- 地图 -->
+    <string name="map">地图</string>
+    <!--地图界面上的导航-->
+    <string name="navigate">输入导航起始点</string>
+    <string name="navigate_choose">导航方式选择</string>
+    <string name="navigate_endpnt">输入导航终点</string>
+    <array name="location_name">
+    	<item>手术室</item>
+    	<item>化疗室</item>
+    	<item>一号病房</item>
+    </array>
+    <!-- 不同的查询方式 -->
+    <string name="search_main">查询</string>
+    <string name="spell_search">按首字母搜索</string>
+    <string name="keyword_search">按关键字搜索</string>
+    <string name="history">历史记录</string>
+    <string name="collect">我的收藏</string>
+    <string name="infrastructure">基础设施</string>
+    <string name="search">搜索</string>
+    <string name="record">条记录</string>
+    <string name="search_result">搜索结果</string>
+    <string name="search_result_start_point">设起点</string>
+    <string name="search_result_end_point">设终点</string>
+    <string name="search_result_collect">收藏点</string>
+    <string name="search_result_show_on_map">显示</string>
+    <string name="search_result_collect_clear">清除收藏点</string>
+    <string name="search_result_historical">历史查询点</string>
+    <string name="search_result_historical_clear">清除历史点</string>
+
+    <!-- 路径管理 -->
+    <string name="route_manager">路径管理</string>
+    <string name="route_manager_delete_path">删除导航路径</string>
+    <string name="route_manager_delete_track">清除用户轨迹</string>
+    <string name="route_manager_monitor_navi">模拟导航</string>
+    <string name="route_manager_range">测距</string>
+    <string name="route_manager_scan">全程概览</string>
+    <string name="route_manager_start_navi">开始导航</string>
+    <!-- 确定取消按钮 -->
+    <string name="cancel">取消</string>
+    <string name="OK">确定</string>
+    <!-- 登录以及注册时的提示信息 -->
+    <string name="login_timeout_alter_title">登录验证提示</string>
+    <string name="login_timeout_alter_message">验证超时，请检查网络连接情况</string>
+    <string name="login_error_alter_title">身份认证提示</string>
+    <string name="login_error_alter_message">你输入的用户名或密码错误,请重新输入</string>
+    <string name="login_check_null">用户名和密码都不能为空</string>
+    <string name="login_progress_title">请等待...</string>
+    <string name="login_progress_message">正在登录检查...</string>
+    <string name="register_timeout_alter_title">注册验证提示</string>
+    <string name="register_timeout_alter_message">验证超时，请检查网络连接情况</string>
+    <string name="register_error_alter_title">身份认证提示</string>
+    <string name="register_error_alter_message">注册失败,请重新输入</string>
+    <string name="register_check_null">用户名、密码以及邮箱均不能为空</string>
+    <string name="register_check_not_equal">两次输入的密码必须相同</string>
+    <string name="register_progress_title">请等待...</string>
+    <string name="register_progress_message">正在注册检查...</string>
+    <string name="setting_delete_map_data_title">注意</string>
+    <string name="setting_delete_map_data_message">确定删除本地缓存地图数据吗？删除后必须在线下载</string>
+    <string name="route_clear_track_title">注意</string>
+    <string name="route_clear_track_message">确定清除轨迹信息吗？</string>
+    <string name="exit_message">确定要退出应用程序吗？</string>
+    <!-- 设置时的提示信息 -->
+    <string name="location_off_progress_message">正在关闭定位...</string>
+    <string name="change_map_fail">地图切换失败</string>
+    <string name="change_map_success">地图切换成功</string>
+    <string name="map_null">地图为空</string>
+    <string name="setting_about_dialog_title">SmartENavi室内定位导航系统</string>
+    <string name="setting_about_dialog_message">版本号：1.0.0\n产品号：10880-C2360\n审图号：G5(2013)6110\n\n中国地质大学（武汉）起点团队\n\n邮箱:ubirtls2010@cug.edu.net\n网址：www.ubiloc.com</string>
+
+</resources>

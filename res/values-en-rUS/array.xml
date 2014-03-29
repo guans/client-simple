@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="timeout_labels">
+        <item>All Region</item>
+        <item>Region1</item>
+        <item>Region2</item>
+        <item>Region3</item>
+        <item>Region4</item>
+        <item>Region5</item>
+    </string-array>
+    <!-- 系统设置界面需要要到的数组 -->
+    <!-- 字体 -->
+    <string-array name="font_size_entry">
+        <item>Big font size</item>
+        <item>Mid font size</item>
+        <item>Small font size </item>
+    </string-array>
+    <string-array name="font_size_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!-- 语言-->
+    <string-array name="language_entry">
+        <item>Simplified Chinese</item>
+        <item>Traditional Chinese</item>
+        <item>English</item>
+    </string-array>
+    <string-array name="language_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!--视图模式-->
+    <string-array name="view_mode_entry">
+        <item>First up North</item>
+        <item>The first car up</item>
+        <item>3D</item>
+    </string-array>
+    <string-array name="view_mode_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <!--显示模式-->
+    <string-array name="show_mode_entry">
+        <item>Daytime</item>
+        <item>Night</item>
+        <item>Auto</item>
+    </string-array>
+    <string-array name="show_mode_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+        <!--扫描间隔-->
+    <string-array name="scan_interval_entry">
+        <item>1 second</item>
+        <item>3 seconds</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>30 seconds</item>
+    </string-array>
+    <string-array name="scan_interval_value">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>30</item>
+    </string-array>
+        <!--滤波-->
+    <string-array name="filter_entry">
+        <item>Particle filter</item>
+        <item>Kalman filter</item>
+        <item>Any filter</item>
+    </string-array>
+    <string-array name="filter_value">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

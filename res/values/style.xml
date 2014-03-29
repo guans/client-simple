@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="titlebarstyle" parent="android:Theme">
+        <item name="android:windowTitleSize">38dip</item>
+        <item name="android:windowBackground">@color/azure</item>
+        <item name="android:colorBackground">@color/azure</item>
+    </style>
+
+    <style name="system_setting_preacitivity">
+        <item name="android:windowBackground">@color/azure</item>
+        <item name="android:colorBackground">@color/azure</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:cacheColorHint">#ff000000</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:colorBackgroundCacheHint">@color/white</item>
+        <!-- 用来设定是否显示标题 -->
+    </style>
+
+</resources>

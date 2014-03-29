@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:background = "@color/white"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	<LinearLayout
+		android:gravity="center"
+		android:orientation="horizontal"
+		android:paddingTop="20.0dip"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<TextView
+			android:textSize="18.0dip"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:text="现在开启位置服务之旅"
+			>
+		</TextView>
+	</LinearLayout>
+	<LinearLayout
+		android:gravity="center"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="25.0dip"
+		android:layout_marginTop="10.0dip"
+		android:layout_marginRight="25.0dip"
+		android:layout_marginBottom="10.0dip"
+
+		>
+		<EditText
+			android:textSize="14.5sp"
+			android:id="@+id/register_email"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:hint="邮箱"
+			android:singleLine="true"
+			android:maxLength="50"
+			android:layout_weight="1.0"
+			android:inputType="textEmailAddress"
+			android:imeOptions="actionNext"
+			>
+		</EditText>
+		<EditText
+			android:textSize="14.5sp"
+			android:id="@+id/register_username"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10.0dip"
+			android:hint="用户名(*)"
+			android:singleLine="true"
+			android:layout_weight="1.0"
+			android:imeOptions="actionNext"
+			>
+		</EditText>
+		<EditText
+			android:textSize="14.5sp"
+			android:id="@+id/register_password"
+			android:paddingRight="14.5sp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10.0dip"
+			android:hint="密码（*）"
+			android:password="true"
+			android:singleLine="true"
+			android:maxLength="16"
+			android:layout_weight="1.0"
+			android:imeOptions="actionNext"
+			>
+		</EditText>
+		<EditText
+			android:textSize="14.5sp"
+			android:id="@+id/register_next_password"
+			android:paddingRight="14.5sp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10.0dip"
+			android:hint="确认密码(*)"
+			android:password="true"
+			android:singleLine="true"
+			android:maxLength="16"
+			android:layout_weight="1.0"
+			android:imeOptions="actionDone"
+			>
+		</EditText>
+
+		<LinearLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center"
+		    android:layout_marginTop="10.0dip"
+		    android:orientation="horizontal" >
+
+		    <Button
+		        android:id="@+id/register_checkbox"
+		        android:background="@drawable/sns_auto_login_clicked"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="10.0dip"
+		        android:layout_marginBottom="30.0dip"
+		        
+		        android:clickable="false" >
+		    </Button>
+
+		    <TextView
+		        android:id="@+id/bww"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="同意条款"
+		        android:textColor="@color/black"
+		        android:textSize="16.0dip" >
+		    </TextView>
+		</LinearLayout>
+
+		<LinearLayout
+			android:gravity="center"
+			android:orientation="horizontal"
+			android:paddingBottom="20.0dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10.0dip"
+			>
+			<Button
+				android:textSize="14.5sp"
+				android:id="@+id/register_rebutton"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:text="立即注册"
+				>
+			</Button>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

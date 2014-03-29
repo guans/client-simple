@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <EditText
+        android:id="@+id/start_point_text"
+        android:layout_width="188dp"
+        android:layout_height="35dp"
+        android:layout_x="18dp"
+        android:layout_y="35dp" 
+        android:hint="请输入导航起点"
+        android:background="@drawable/radios_around">
+    	
+    	<requestFocus />    
+    </EditText>
+
+    <TextView
+        android:id="@+id/end_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="80dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="终止点" />
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/end_point_text"
+        android:layout_width="188dp"
+        android:layout_height="35dp"
+        android:layout_x="18dp"
+        android:layout_y="105dp"
+        android:hint="请输入导航终点" 
+        android:background="@drawable/radios_around">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/search_startPoint"
+        android:layout_width="77dp"
+        android:layout_height="35dp"
+        android:layout_x="215dp"
+        android:layout_y="35dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="搜索" 
+        android:background="@drawable/radios_button"/>
+
+
+    <Button
+        android:id="@+id/search_endPoint"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_x="215dp"
+        android:layout_y="105dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="搜索" 
+        android:background="@drawable/radios_button"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="9dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="起始点" />
+
+</AbsoluteLayout>

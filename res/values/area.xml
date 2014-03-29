@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+         <string-array name="area1">
+               <item>所有区域</item>
+               <item>区域1</item>
+               <item>区域2</item>
+               <item>区域3</item>
+               <item>区域4</item>
+               <item>区域5</item>
+         </string-array>
+   </resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto"
+    package="com.ubirtls"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:icon="@drawable/logo100"
+        android:label="@string/title" >
+        <activity
+            android:name=".view.Activity.SplashScreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".test.WifiTestActivity" >
+        </activity>
+        <activity android:name=".test.WiFiContinusScanTest" >
+        </activity>
+        <activity android:name=".test.SocketTest" >
+        </activity>
+        <activity android:name=".test.ConfiguresTest" >
+        </activity>
+        <activity
+            android:name=".view.Activity.LoginActivity"
+            android:theme="@style/titlebarstyle" >
+        </activity>
+        <activity
+           
+            android:name=".view.Activity.MapActivity"
+            android:configChanges="locale"
+            android:launchMode="singleTask"
+             >
+        </activity>
+        <activity
+            android:name=".view.Activity.RegisterActivity"
+            android:theme="@style/titlebarstyle" >
+        </activity>
+        <activity
+            android:name=".view.Activity.SettingActivity"
+            android:theme="@style/system_setting_preacitivity" >
+        </activity>
+        <activity android:name=".view.Activity.SearchActivity" >
+        </activity>
+        <activity android:name=".view.Activity.RouteManagerActivity" >
+        </activity>
+        <activity
+            android:name=".view.Activity.KeywordsSearchActivity"
+            android:theme="@style/titlebarstyle" >
+        </activity>
+        <activity
+            android:name=".view.Activity.SearchResultActivity"
+            android:theme="@style/titlebarstyle" >
+        </activity>
+        <activity
+            android:name=".view.Activity.CollectContentsActivity"
+            android:theme="@style/titlebarstyle" >
+        </activity>
+        <activity
+            android:name=".view.Activity.HistoricRecordActivity"
+            android:theme="@style/titlebarstyle" >
+        </activity>
+        <activity
+            android:name=".view.Activity.CommSettingActivity"
+            android:theme="@style/titlebarstyle"
+            android:label="@string/comm_setting" >
+        </activity>
+        <activity 
+            android:name=".view.Activity.mapnavigate">
+        </activity>
+       
+      <service
+            android:enabled="true"
+            android:name=".PDR.PDRService"
+            android:exported="true" >
+            <intent-filter >
+                <action android:name="com.ubirtls.PDR.pDRService" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

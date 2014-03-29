@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+    <TextView android:layout_width="fill_parent" 
+    android:id="@+id/place" 
+    android:layout_height="wrap_content" 
+    android:gravity="center"
+    android:text="地大图书馆"
+    android:layout_marginTop="20dp"
+    android:textSize="24dp"
+    ></TextView>
+    <TextView android:text="电话：66743118" 
+    android:id="@+id/phone" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp">
+    </TextView>
+    <TextView android:text="区域：地大北区" 
+    android:id="@+id/area" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp">
+    </TextView>
+        <TextView android:text="地址：武汉市洪山区鲁磨路" 
+    android:id="@+id/address" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp">
+    </TextView>
+    <LinearLayout android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView android:text="类别:" 
+    android:id="@+id/stype" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textSize="20dp"
+    android:layout_marginLeft="20dp">
+    </TextView>
+    <Spinner android:id="@+id/spinner1" 
+    android:layout_weight="1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+    android:entries="@+array/timeout_labels"
+    android:layout_marginLeft="10dp"></Spinner>
+    </LinearLayout>
+    <LinearLayout style="@android:style/ButtonBar"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+        <Button android:id="@+id/button_weather" android:text="设起点"
+            android:layout_width="0dip" android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:id="@+id/button_mail" android:text="设终点"
+            android:layout_width="0dip" android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:id="@+id/button_train" android:text="收藏"
+            android:layout_width="0dip" android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <Button android:id="@+id/button_sites" android:text="显示"
+            android:layout_width="0dip" android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

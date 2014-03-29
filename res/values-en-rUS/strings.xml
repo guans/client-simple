@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UE Location Aware</string>
+
+    <!-- 通信设置 -->
+    <string name="comm_setting">comm setting</string>
+    <string name="comm_setting_ip_port">the ip address and port of the message middleware </string>
+    <string name="comm_setting_hint_ip">ip</string>
+    <string name="comm_setting_hint_port">port</string>
+    <string name="comm_setting_hint_location_engine">location engine</string>
+    <string name="comm_setting_hint_server_engine">server engine</string>
+    <string name="comm_setting_button_save">save</string>
+    <string name="comm_setting_button_cancel">cancel</string>    
+        
+    <!-- 登录  注册 -->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="team_name">RTLS</string>
+    <string name="platform_name">UBIEYES</string>
+    <string name="Theme">Wonderful LBS, open a new life</string>
+    <string name="username">username(*)</string>
+    <string name="password">password(*)(6-16)</string>
+    <string name="email">email(*)</string>
+    <string name="password_next">Confirm Password
+    </string>
+    <string name="finish">finish</string>
+    <string name="back">back</string>
+    <string name="exit">exit</string>
+    <string name="registe_soon">Sign up account</string>
+    <!-- 地图 -->
+    <string name="map">Map</string>
+    <!-- 不同的查询方式 -->
+    <string name="search_main">Search</string>
+    <string name="spell_search">Search by spell</string>
+    <string name="keyword_search">Search by keyword</string>
+    <string name="history">History</string>
+    <string name="collect">Collect</string>
+    <string name="infrastructure">Infrastructure</string>
+    <string name="search">search</string>
+    <string name="record">records</string>
+    <string name="search_result">search result</string>
+    <string name="search_result_start_point">start point</string>
+    <string name="search_result_end_point">end point</string>
+    <string name="search_result_collect">collect</string>
+    <string name="search_result_show_on_map">show</string>   
+    <string name="search_result_collect_clear">clear pois</string>
+    <string name="search_result_historical">historical poi</string>
+        
+    <!-- 路径管理 -->
+    <string name="route_manager">Router manager </string>
+    <string name="route_manager_delete_path">Delete the path </string>
+    <string name="route_manager_delete_track">Clear the track</string>
+    <string name="route_manager_monitor_navi">Simulation Navigation </string>
+    <string name="route_manager_range">Ranging</string>
+    <string name="route_manager_scan">Overview of the whole</string>
+    <string name="route_manager_start_navi">Start navigation</string>
+    <!-- 确定取消按钮 -->
+    <string name="cancel">Cancel</string>
+    <string name="OK">OK</string>
+    <!-- 登录以及注册时的提示信息 -->
+    <string name="login_timeout_alter_title">Login authentication prompt</string>
+    <string name="login_timeout_alter_message">Verification time-out, check the network connection</string>
+    <string name="login_error_alter_title">Authentication prompt</string>
+    <string name="login_error_alter_message">The username or password you entered is incorrect, please re-enter</string>
+    <string name="login_check_null">Username and password can not be empty</string>
+    <string name="login_progress_title">Please wait...</string>
+    <string name="login_progress_message">Is checking your login ...</string>
+    <string name="register_timeout_alter_title">Registration Verification Tips</string>
+    <string name="register_timeout_alter_message">Verification time-out, check the network connection</string>
+    <string name="register_error_alter_title">Authentication prompt</string>
+    <string name="register_error_alter_message">Registration failed, please re-enter</string>
+    <string name="register_check_null">User name, password, and email can not be empty</string>
+    <string name="register_check_not_equal">The password must be the same twice</string>
+    <string name="register_progress_title">Please wait...</string>
+    <string name="register_progress_message">Registration checks...</string>
+    <string name="setting_delete_map_data_title">Attention</string>
+    <string name="setting_delete_map_data_message">Be sure to delete the local cache map data? If deleted, the data must be download online  </string>
+    <string name="route_clear_track_title">Attention</string>
+    <string name="route_clear_track_message">Be sure to clear the path information ？</string>
+    <string name="exit_message">You sure you want to exit the application？</string>
+    <string name="setting">setting</string>
+    <string name="system_settings">System Setting</string>
+    <!-- 设置时的提示信息 -->
+    <string name="location_off_progress_message">Is closing the location...</string>
+    <string name="map_null">The map is null</string>
+    <string name="change_map_fail">Map switch failed</string>
+    <string name="change_map_success">Map switch success</string>
+        
+    <string name="setting_about_dialog_title">UbiEyes Location Service</string>
+    <string name="setting_about_dialog_message">Version：1.0.0\nPND：10880-C2360\nCensor Code：G5(2012)6110\n\nChina University of Geosciences（Wu Han） Team Of UbiRTLS\n\nPhone：072-67784455\nEmail:ubirtls2010@cug.edu.net\nWeb：www.ubirtls.com</string>
+        
+    <!-- 设置项的标题 -->
+    <string name="base_category">Base setting</string>
+    <string name="setting_font_title">font</string>
+    <string name="setting_language_title">language</string>
+    <string name="high_category">Advanced Settings</string>
+     <string name="setting_comm_title">communication settings</string>
+    <string name="setting_viewmode_title">View mode</string>
+    <string name="setting_showmode_title">Display Mode</string>
+    <string name="setting_speed_title">Simulation speed</string>
+    <string name="setting_scan_title">Scan interval</string>
+    
+    <string name="setting_log_title">Log</string>
+    <string name="setting_service_title">Service subscription</string>
+    <string name="setting_filter_title">Filter selection</string>
+    <string name="setting_location_title">Positioning enabled</string>
+    <string name="setting_change_map">map switch</string>
+        
+    <string name="setting_delete_map_title">Delete the cache</string>
+    <string name="other_category">Other</string>
+    <string name="setting_about_title">About</string>
+    <!-- 设置项的二级标题 -->
+    <string name="setting_font_summary">Choose the display font size</string>
+    <string name="setting_language_summary">Select the display language</string>
+    <string name="setting_viewmode_summary">Choose the map orientation</string>
+    <string name="setting_showmode_summary">Select the map display brightness</string>
+    <string name="setting_speed_summary">Navigation speed setting when the analog</string>
+    <string name="setting_scan_interval_summary">Set the interval client scans the AP interval</string>
+    <string name="setting_log_summary">Set the record system information that</string>
+    <string name="setting_service_summary">Subscribe to location-based services</string>
+    <string name="setting_filter_summary">Select the filter to improve the positioning accuracy</string>
+    <string name="setting_location_summary">Positioned on or off</string>
+    <string name="setting_comm_summary">set the communication IP、port and other infomation</string>
+    <string name="setting_change_map_summary">change the map </string>
+    <string name="setting_delete_map_summary">Delete the local cache of maps, pictures</string>
+    <string name="setting_about_summary">Software note</string>
+    <!-- CheckBox的off和on summary -->
+    <string name="setting_location_on_summary">Location is on</string>
+    <string name="setting_location_off_summary">Location is off</string>
+    <!-- preference key -->
+    <string name="setting_main_preference_key">setting_main_preference_key</string>
+    <string name="setting_font_key">setting_font_key</string>
+    <string name="setting_language_key">setting_language_key</string>
+    <string name="setting_viewmode_key">etting_viewmode_key</string>
+    <string name="setting_showmode_key">setting_showmode_key</string>
+    <string name="setting_speed_key">setting_speed_key</string>
+    <string name="setting_scan_interval_key">setting_scan_interval_key</string>
+    <string name="setting_log_key">setting_log_key</string>
+    <string name="setting_service_key">setting_service_key</string>
+    <string name="setting_filter_key">setting_filter_key</string>
+    <string name="setting_location_key">setting_location_key</string>
+    <string name="setting_delete_map_key">setting_delete_map_key</string>
+    <string name="setting_about_key">setting_about_key</string>
+
+    <!-- default value -->
+    <string name="setting_font_defalut_value">1</string>
+    <string name="setting_language_defalut_value">1</string>
+    <string name="setting_viewmode_defalut_value">1</string>
+    <string name="setting_showmode_defalut_value">1</string>
+    <string name="setting_filter_defalut_value">3</string>
+    <string name="setting_scan_defalut_value">1</string>
+    <string name="setting_location_defalut_value">true</string>
+
+</resources>
